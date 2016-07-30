@@ -1,24 +1,19 @@
-int nRows = 8;
-int nColumns = 8;
+int nRows = 90;
+int nColumns =90;
+int x = 800/nRows;
+int y = 800/nColumns;
 void setup() {
-
-  size(nRows*100, nColumns*100);
+  size(nRows*x, nColumns*y);
   background(255);
 }
 void draw() {
-
-  int x = 100;
   for (int l=0; l<nColumns+1; l++) {
     for (int i=0; i<nRows+1; i++) {
       if ((i+l)%2 == 0) {
         fill(0);
-        rect(i*x, l*x, 100, 100);
+        rect(i*x, l*y, 800/nRows, 800/nColumns);
       }
     }
-    //     else {
-    //      rect(i*x, i*x, 100, 100);
-    //      fill(255);
-    //    }
   }
 }
 
