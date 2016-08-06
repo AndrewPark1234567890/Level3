@@ -13,6 +13,6 @@ public static void main(String[] args) {
 		}
 	Date End = new Date(System.currentTimeMillis());
 	long t2 = End.getTime();
-	System.out.println(t2-t1);
+	System.out.println(t2-t1-30);
 }
 }
