@@ -14,19 +14,18 @@ public class sqrtCalc {
 	}
 
 	public static boolean calc(int x) {
-		boolean prime = false;
-		if(x%2 == 0){
-			prime = true;
-		}
 		if(x == 2){
-			prime = true;
+			return true;
+		}
+		if(x%2 == 0){
+			return false;
 		}
 		for (int i = 3; i < Math.sqrt(x)+1; i+=2) {
 			if (x % i == 0) {
-				prime = true;
+				return false;
 			}
 		}
-		return prime;
+		return true;
 
 	}
 }
