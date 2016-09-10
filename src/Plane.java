@@ -10,6 +10,6 @@ public static void main(String[] args) {
 		Snake s = new Snake(Randomness.numbs(), Randomness.trues());
 	
 	}
-	for()
+	
 }
 }
