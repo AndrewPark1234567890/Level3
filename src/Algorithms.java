@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Algorithms {
@@ -45,16 +46,27 @@ public class Algorithms {
 		}
 		return tallest;
 	}
-public static Boolean containsSOS(List<String> mes){
-	Boolean containsSOS = false;
-	for(String e: mes){
-		if(e.contains("... --- ...")){
-		containsSOS = true;
+
+	public static Boolean containsSOS(List<String> mes) {
+		Boolean containsSOS = false;
+		for (String e : mes) {
+			if (e.contains("... --- ...")) {
+				containsSOS = true;
+			}
 		}
+		return containsSOS;
 	}
-	return containsSOS;
+
+	public static List<Double> sortScores(List<Double> results) {
+		Double old = results.get(0);
+		for (int i = 0; i < results.size(); i++) {
+			for (Double score : results) {
+				if (score < old) {
+					results.set(i, score);
+					old = score;
+				}
+			}
+		}
+		return results;
+	}
 }
-}
-
-
-
