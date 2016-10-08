@@ -8,7 +8,7 @@ public class OncogeneDetector {
 		int cancerNums = 0;
 		if(string.equals("")){
 			throw new IllegalArgumentException("healthySequences must contain at least one element");
-			throw new IllegalArgumentException("cancerSequences must contain at least one element");
+			//throw new IllegalArgumentException("cancerSequences must contain at least one element");
 		}
 		for (int i = 0; i < healthySequences.size(); i++) {
 			String str = healthySequences.get(i);
