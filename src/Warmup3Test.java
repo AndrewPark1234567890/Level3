@@ -4,7 +4,7 @@ import java.util.Stack;
 public class Warmup3Test {
 	public static void main(String[] args) {
 		Warmup3Test w = new Warmup3Test();
-		System.out.println(isPalinDrome("racecar"));
+		System.out.println(isPalinDrome("happippah"));
 	}
 
 	public int[] Mult1(int[] input1) {
@@ -40,8 +40,8 @@ public class Warmup3Test {
 		for (int i = 0; i < c.length; i++) {
 			s.push(new Character(c[i]));
 		}
-		for (int j = 0; j < c.length; j++) {	
-		copyright += s.pop();
+		for (int j = 0; j < c.length; j++) {
+			copyright += s.pop();
 		}
 		if (copyright.equals(input)) {
 			return true;
@@ -50,48 +50,6 @@ public class Warmup3Test {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  * Hi this is past me. I thought this was a good idea lol. Also look under your

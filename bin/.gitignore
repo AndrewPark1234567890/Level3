@@ -4,6 +4,7 @@
 /AnimalHipsterTest.class
 /BrandName.class
 /CharCountHash.class
+/CheckProducts.class
 /ComedyCentral.class
 /Diamonds.class
 /Dictionary.class
@@ -30,6 +31,7 @@
 /Snake.class
 /SoundHound.class
 /StackItUp.class
+/Syntax.class
 /Time.class
 /Trip.class
 /Warmup.class
@@ -42,5 +44,6 @@
 /sqrtCalc.class
 /testRepeat.class
 /tester.class
-/Syntax.class
-/CheckProducts.class
+/Warmup4.class
+/Warmup4Test.class
+/Hangman.class
