@@ -12,6 +12,7 @@
 /Fibbonachi.class
 /Flight.class
 /FlightTest.class
+/Hangman.class
 /HashmapTest.class
 /LOOPS.class
 /Lottery.class
@@ -39,11 +40,12 @@
 /Warmup2Test.class
 /Warmup3.class
 /Warmup3Test.class
+/Warmup4.class
+/Warmup4Test.class
 /WordReverser.class
 /allPrimes.class
 /sqrtCalc.class
 /testRepeat.class
 /tester.class
-/Warmup4.class
-/Warmup4Test.class
-/Hangman.class
+/Warmup5.class
+/Warmup5Test.class
