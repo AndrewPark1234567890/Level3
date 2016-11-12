@@ -33,7 +33,7 @@ public class Hangman {
 			c = getGuess();
 			for (int i = 0; i < word.length(); i++) {
 				if (c == word.charAt(i)) {
-					wordy = c;
+					// wordy = c;
 				}
 			}
 		}
