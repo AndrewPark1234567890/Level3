@@ -9,7 +9,7 @@ public class VoteProcessor {
 		int snow = 0;
 		for (String s : votes) {
 			s = s.toLowerCase();
-			System.out.println(s);
+			//System.out.println(s);
 			if (s.equals("pope francis")) {
 				pope++;
 		
@@ -18,8 +18,8 @@ public class VoteProcessor {
 				snow++;
 			}
 		}
-		System.out.println(pope);
-		System.out.println(snow);
+		//System.out.println(pope);
+		//System.out.println(snow);
 		if (pope < snow) {
 			winner = "edward snowden";
 		}else 	if (pope > snow) {
